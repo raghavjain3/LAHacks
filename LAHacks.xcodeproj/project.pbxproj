@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B194C6A243015790031E782 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B194C69243015790031E782 /* WelcomeView.swift */; };
+		4B194C6C243015E80031E782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B194C6B243015E80031E782 /* ContentView.swift */; };
 		4BE2200C242F56860078D1EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200B242F56860078D1EC /* AppDelegate.swift */; };
 		4BE2200E242F56860078D1EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200D242F56860078D1EC /* SceneDelegate.swift */; };
-		4BE22010242F56860078D1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200F242F56860078D1EC /* ContentView.swift */; };
+		4BE22010242F56860078D1EC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200F242F56860078D1EC /* SignupView.swift */; };
 		4BE22012242F56880078D1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE22011242F56880078D1EC /* Assets.xcassets */; };
 		4BE22015242F56880078D1EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE22014242F56880078D1EC /* Preview Assets.xcassets */; };
 		4BE22018242F56880078D1EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE22016242F56880078D1EC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B194C69243015790031E782 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4B194C6B243015E80031E782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BE22008242F56860078D1EC /* LAHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE2200B242F56860078D1EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE2200D242F56860078D1EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BE2200F242F56860078D1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BE2200F242F56860078D1EC /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		4BE22011242F56880078D1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BE22014242F56880078D1EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BE22017242F56880078D1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				4BE2200B242F56860078D1EC /* AppDelegate.swift */,
 				4BE2200D242F56860078D1EC /* SceneDelegate.swift */,
-				4BE2200F242F56860078D1EC /* ContentView.swift */,
+				4B194C6B243015E80031E782 /* ContentView.swift */,
+				4BE2200F242F56860078D1EC /* SignupView.swift */,
+				4B194C69243015790031E782 /* WelcomeView.swift */,
 				4BE22011242F56880078D1EC /* Assets.xcassets */,
 				4BE22016242F56880078D1EC /* LaunchScreen.storyboard */,
 				4BE22019242F56880078D1EC /* Info.plist */,
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B194C6A243015790031E782 /* WelcomeView.swift in Sources */,
+				4B194C6C243015E80031E782 /* ContentView.swift in Sources */,
 				4BE2200C242F56860078D1EC /* AppDelegate.swift in Sources */,
 				4BE2200E242F56860078D1EC /* SceneDelegate.swift in Sources */,
-				4BE22010242F56860078D1EC /* ContentView.swift in Sources */,
+				4BE22010242F56860078D1EC /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
