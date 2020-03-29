@@ -1,5 +1,5 @@
 //
-//  WelcomeView.swift
+//  ConifrmationView.swift
 //  LAHacks
 //
 //  Created by Raghav Jain on 3/28/20.
@@ -8,14 +8,21 @@
 
 import SwiftUI
 
-struct WelcomeView: View {
+struct ConifrmationView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image("BlueEgg")
                 Spacer()
-                NavigationLink(destination: NameProjectView()) {
-                    Text("New Project")
+                Text("Your project has been created!")
+                    .fontWeight(.bold)
+                    .font(.system(size: 25))
+                
+                Spacer()
+                
+                
+                
+                NavigationLink(destination: ContentView()) {
+                    Text("Next")
                         .font(.body)
                         .fontWeight(.bold)
                         .padding()
@@ -25,14 +32,14 @@ struct WelcomeView: View {
                 }
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
+                Spacer()
             }
-            .padding(40)
         }
     }
 }
 
-struct WelcomeView_Previews: PreviewProvider {
+struct ConifrmationView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
+        ConifrmationView()
     }
 }

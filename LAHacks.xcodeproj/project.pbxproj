@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		4B194C6A243015790031E782 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B194C69243015790031E782 /* WelcomeView.swift */; };
 		4B194C6C243015E80031E782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B194C6B243015E80031E782 /* ContentView.swift */; };
+		4B194C6E24301FB70031E782 /* NameProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B194C6D24301FB70031E782 /* NameProjectView.swift */; };
+		4B85129A2430281100364D50 /* ProjectTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8512992430281100364D50 /* ProjectTypeView.swift */; };
+		4B85129C2430281A00364D50 /* ProjectAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85129B2430281A00364D50 /* ProjectAddressView.swift */; };
+		4B85129E2430282300364D50 /* InviteTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85129D2430282300364D50 /* InviteTeamView.swift */; };
+		4B8512A024302D9400364D50 /* ConifrmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85129F24302D9400364D50 /* ConifrmationView.swift */; };
 		4BE2200C242F56860078D1EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200B242F56860078D1EC /* AppDelegate.swift */; };
 		4BE2200E242F56860078D1EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200D242F56860078D1EC /* SceneDelegate.swift */; };
 		4BE22010242F56860078D1EC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2200F242F56860078D1EC /* SignupView.swift */; };
@@ -20,6 +25,11 @@
 /* Begin PBXFileReference section */
 		4B194C69243015790031E782 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4B194C6B243015E80031E782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B194C6D24301FB70031E782 /* NameProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameProjectView.swift; sourceTree = "<group>"; };
+		4B8512992430281100364D50 /* ProjectTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTypeView.swift; sourceTree = "<group>"; };
+		4B85129B2430281A00364D50 /* ProjectAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAddressView.swift; sourceTree = "<group>"; };
+		4B85129D2430282300364D50 /* InviteTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteTeamView.swift; sourceTree = "<group>"; };
+		4B85129F24302D9400364D50 /* ConifrmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConifrmationView.swift; sourceTree = "<group>"; };
 		4BE22008242F56860078D1EC /* LAHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE2200B242F56860078D1EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE2200D242F56860078D1EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +75,11 @@
 				4B194C6B243015E80031E782 /* ContentView.swift */,
 				4BE2200F242F56860078D1EC /* SignupView.swift */,
 				4B194C69243015790031E782 /* WelcomeView.swift */,
+				4B194C6D24301FB70031E782 /* NameProjectView.swift */,
+				4B8512992430281100364D50 /* ProjectTypeView.swift */,
+				4B85129B2430281A00364D50 /* ProjectAddressView.swift */,
+				4B85129D2430282300364D50 /* InviteTeamView.swift */,
+				4B85129F24302D9400364D50 /* ConifrmationView.swift */,
 				4BE22011242F56880078D1EC /* Assets.xcassets */,
 				4BE22016242F56880078D1EC /* LaunchScreen.storyboard */,
 				4BE22019242F56880078D1EC /* Info.plist */,
@@ -153,8 +168,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B194C6A243015790031E782 /* WelcomeView.swift in Sources */,
+				4B8512A024302D9400364D50 /* ConifrmationView.swift in Sources */,
 				4B194C6C243015E80031E782 /* ContentView.swift in Sources */,
 				4BE2200C242F56860078D1EC /* AppDelegate.swift in Sources */,
+				4B85129C2430281A00364D50 /* ProjectAddressView.swift in Sources */,
+				4B194C6E24301FB70031E782 /* NameProjectView.swift in Sources */,
+				4B85129A2430281100364D50 /* ProjectTypeView.swift in Sources */,
+				4B85129E2430282300364D50 /* InviteTeamView.swift in Sources */,
 				4BE2200E242F56860078D1EC /* SceneDelegate.swift in Sources */,
 				4BE22010242F56860078D1EC /* SignupView.swift in Sources */,
 			);
